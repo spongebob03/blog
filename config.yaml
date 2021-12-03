@@ -39,11 +39,11 @@ params:
 
     sidebar:
         emoji: 🌿
-        subtitle: 건강한 개발자가 되고싶다...
+        subtitle: 건강한 개발자가 목표
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/bmo.png
 
     article:
         math: false
@@ -188,9 +188,9 @@ menu:
             
         - identifier: blog
           name: velog
-          url: https://twitter.com
+          url: https://velog.io/@spongebob03
           params:
-            icon: brand-twitter
+            icon: home
 
 related:
     includeNewer: true
