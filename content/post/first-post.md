@@ -41,22 +41,21 @@ themes/exampleSite의 `content` 폴더 내용을 복사해와서 사용.
 `hugo server (-D)` 웹서버 실행해서 수정사항 확인
 ### host on github
 [공식 문서](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
-- 커맨드
-  1. `cd blog`
-  2. `hugo -t hugo-theme-stack`
-  3. `cd public`
-  4. `git add .`
-  5. `git commit -m "커밋메시지"`
-  6. `git push origin main` -> 내계정.github.io에 푸시(main이 기본 브랜치명이었다)  
-  7. `cd ..`
-  8. `git add .`
-  9. `git commit -m "커밋메시지"`
-  10. `git push origin master` -> blog 저장소에 푸시
-- 쉘 스크립트로 업로드 자동화  
+1. `cd blog`
+2. `hugo -t hugo-theme-stack`
+3. `cd public`
+4. `git add .`
+5. `git commit -m "커밋메시지"`
+6. `git push origin main` -> 내계정.github.io에 푸시(main이 기본 브랜치명이었다)  
+7. `cd ..`
+8. `git add .`
+9. `git commit -m "커밋메시지"`
+10. `git push origin master` -> blog 저장소에 푸시  
+쉘 스크립트로 업로드 자동화  
   1. `deploy.sh`에 위에 매번 쓰는 커맨드를 정리  
-  2. `./deploy.sh "커밋 메시지"`
-
-# 추가할 사항
+  2. `./deploy.sh "커밋 메시지"`  
+이후에는 Gist, GithubAction... 더 편하게 할 수 있는 방법 도전
+## 추가할 사항
 - utterances로 댓글기능 추가
 - 카테고리 사이드메뉴에 추가
 - GithubAction으로 자동화
