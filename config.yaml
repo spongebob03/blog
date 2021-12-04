@@ -65,9 +65,9 @@ params:
             adminLabel:
 
         utterances:
-            repo:
+            repo: spongebob03/spongebob03.github.io
             issueTerm: pathname
-            label:
+            label: comment
 
         remark42:
             host:

@@ -37,6 +37,19 @@ git submodule add -b main git@github.io_저장소_SSH주소 public ## SSH키 있
 themes/exampleSite의 `content` 폴더 내용을 복사해와서 사용. 
 - 포스트 생성
   `hugo new post/포스트제목.md` 제목은 title 항목으로 고칠 수 있다.
+### 댓글 기능 추가
+`config.yaml`의 comments 설정만으로 간단하게 추가할 수 있다.    
+깃헙계정으로 댓글을 남길 수 있는 [utterances](https://utteranc.es/)로 설정했다.  
+```
+comments:
+        enabled: true
+        provider: utterances
+
+        utterances:
+            repo: 깃헙계정/깃헙계정.github.io
+            issueTerm: pathname
+            label: comment
+```
 ### 로컬 서버 확인
 `hugo server (-D)` 웹서버 실행해서 수정사항 확인
 ### host on github
@@ -56,13 +69,13 @@ themes/exampleSite의 `content` 폴더 내용을 복사해와서 사용.
   1. `deploy.sh`에 위에 매번 쓰는 커맨드를 정리  
   2. `./deploy.sh "커밋 메시지"`  
 이후에는 Gist, GithubAction... 더 편하게 할 수 있는 방법 도전
-## 추가할 사항
-- utterances로 댓글기능 추가
-- 카테고리 사이드메뉴에 추가
-- GithubAction으로 자동화
-- hugo 기능 잘 활용하기
-- 통계기능 추가
-- custom domain 
+## 추가할 사항  
+- [x] utterances로 댓글기능 추가  
+- [ ] 카테고리 사이드메뉴에 추가
+- [ ] GithubAction으로 자동화
+- [ ] hugo 기능 잘 활용하기
+- [ ] 통계기능 추가
+- [ ] custom domain 
   - https://www.holaxprogramming.com/2017/05/15/github-page-and-custom-domain/
   - https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages
 
