@@ -7,7 +7,7 @@ categories: ["우당탕탕 개발기"]
 description: 야 너두 블로그 만들 수 있어
 ---
 
-![Hugo-Static Site Generator](https://blog.chodaeho.com/images/blog/2021/01/hugo-logo.png)  
+![](https://blog.chodaeho.com/images/blog/2021/01/hugo-logo.png)  
 SSG(Static site generator) 중 Hugo를 사용하여 블로그를 만들었다. 처음에 뭐가 뭔지 몰라서 뚱땅뚱땅 만들었다. 호스팅까지 하는데 하루 걸렸고 더 빠르게 할 수 있었지만 역시 세팅에서 시행착오를 겪었다. 그나마 Hugo여서 하루만에 할 수 있었던걸수도... Hugo는 Go로 만들어져서 나중에 Go에 대해서 더 공부해보고 싶다.
 
 ## github.io 만들기 
@@ -51,6 +51,7 @@ themes/exampleSite의 `content` 폴더 내용을 복사해와서 사용.
 8. `git add .`
 9. `git commit -m "커밋메시지"`
 10. `git push origin master` -> blog 저장소에 푸시  
+
 쉘 스크립트로 업로드 자동화  
   1. `deploy.sh`에 위에 매번 쓰는 커맨드를 정리  
   2. `./deploy.sh "커밋 메시지"`  
@@ -61,6 +62,9 @@ themes/exampleSite의 `content` 폴더 내용을 복사해와서 사용.
 - GithubAction으로 자동화
 - hugo 기능 잘 활용하기
 - 통계기능 추가
+- custom domain 
+  - https://www.holaxprogramming.com/2017/05/15/github-page-and-custom-domain/
+  - https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages
 
 ## 참고 자료
 [Hugo 공식문서 Quick Start](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme)  
