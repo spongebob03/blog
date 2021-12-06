@@ -17,7 +17,7 @@ SSG(Static site generator) 중 Hugo를 사용하여 블로그를 만들었다. �
 ### 사이트 폴더 만들기
 `hugo new site blog`
 ### 테마 붙이기
-테그, 카테고리 잘보이는 테마가 안보여서 그나마 stack 테마가 제일 내가 원하는 템플릿이었다.
+태그, 카테고리 잘보이는 테마가 안보여서 그나마 stack 테마가 제일 내가 원하는 템플릿이었다.
 ```
 cd blog
 git init
