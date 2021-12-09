@@ -161,7 +161,7 @@ dls.valid.show_batch(max_n=4, nrows=1)
 
 
     
-![png](output_12_0.png)
+![](output_12_0.png)
     
 
 이미지 크기를 동일하게 맞추려 잘라내다가 일부가 유실될 수도 있다. 이미지를 잘라내지 않고 크기를 맞추는 다음 방법들이 있다.  
@@ -175,7 +175,7 @@ dls.valid.show_batch(max_n=4, nrows=1)
 
 
     
-![png](output_13_0.png)
+![](output_13_0.png)
     
 
 
@@ -188,7 +188,7 @@ dls.valid.show_batch(max_n=4, nrows=1)
 
 
     
-![png](output_14_0.png)
+![](output_14_0.png)
     
 위의 두 방법은 이미지를 비현실적으로 변형해서 모델이 실제와는 다른 형태를 학습할 수도 있다. 이미지 크기를 맞추기 위해서 이미지 일부를 잘라내거나, 찌그러뜨리거나, 늘리기, 불필요한 빈 공간을 많이 만들어내는 방법은 모델의 계산 처리에 큰 낭비를 야기시킨다. 이는 유효해상도가 낮아지는 결과로 이어질 수 있다.  
 
@@ -203,7 +203,7 @@ dls.train.show_batch(max_n=4, nrows=1, unique=True)
 `min_scale`: 매번 이미지의 얼마나 많은 영역을 선택할지 결정!  
 `show_batch`함수의 `unique`인자: 동일 이미지에서 반복해서 적용되는 변형으로 만들어지는 서로 다른 이미지 확인
     
-![png](output_16_0.png)
+![](output_16_0.png)
     
 
 ## 데이터 증강
@@ -224,7 +224,7 @@ dls.train.show_batch(max_n=8, nrows=2, unique=True)
 `aug_transforms`: 자연스러운 사진에는 이미 잘 작동한다고 알려진 표준적인 데이터 증강 목록 반환  
 
     
-![png](output_17_1.png)
+![](output_17_1.png)
     
 
 
@@ -318,7 +318,7 @@ interp.plot_confusion_matrix()
 오차행렬:
 
     
-![png](output_21_1.png)
+![](output_21_1.png)
     
 오류가 발생하는 곳 원인 파악해야 데이터셋인지, 모델 자체 문제인지 알 수 있다. 
 
@@ -331,7 +331,7 @@ interp.plot_top_losses(5, nrows=1)
 
 
     
-![png](output_22_0.png)
+![](output_22_0.png)
     
 
 ### ImageClassifierCleaner로 시각적으로 확인해서 데이터 정제
