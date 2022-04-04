@@ -1,7 +1,7 @@
-[submodule "themes/hugo-theme-stack"]
-	path = themes/hugo-theme-stack
-	url = https://github.com/CaiJimmy/hugo-theme-stack/
 [submodule "public"]
 	path = public
 	url = git@github.com:spongebob03/spongebob03.github.io.git
 	branch = main
+[submodule "themes/zzo"]
+	path = themes/zzo
+	url = https://github.com/zzossig/hugo-theme-zzo.git
