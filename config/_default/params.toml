@@ -126,7 +126,7 @@ commento = false
 
 [utterances]       # https://utteranc.es/
   owner = "spongebob03"              # Your GitHub ID
-  repo = "spongebob03/spongebob03.github.io"    # The repo to store comments
+  repo = "spongebob03.github.io"    # The repo to store comments
 
 [gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
   owner = ""              # Your GitHub ID
@@ -164,9 +164,9 @@ commento = false
   email = "mailto:bmofinnjake08@gmail.com"
   phone = ""
   facebook = ""
-  twitter = ""
+  twitter = "https://twitter.com/blanc_bmo"
   github = "https://github.com/spongebob03"
-  stack-overflow = ""
+  stack-overflow = "https://stackoverflow.com/users/14383951/bmo"
   instagram = ""
   google-plus = ""
   youtube = ""

@@ -2,11 +2,16 @@
 title: "오픈소스 컨트리뷰톤"
 date: 2021-11-17T14:41:51+09:00
 description: "파이토치 한국어 튜토리얼 참여기"
-draft: true
+draft: false
 author: BMO
 authorEmoji: 🌿
 tags: 
 - 회고
+- PyTorch
+categories:
+- 오픈소스
+series:
+- 오픈소스 컨트리뷰톤
 ---
 
 ## 오픈소스?
