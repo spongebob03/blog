@@ -20,14 +20,14 @@ header:
     fontColor: yellow
     
   - type: text
-    height: 200
+    height: 80
     paddingX: 50
     paddingY: 0
     align: center
-    title:
-      - HUGO
+    # title:
+    #   - 새로운, 재밌는
     subtitle:
-      - The world’s fastest framework for building websites
+      - “A ship in port is safe, but that’s not what ships are built for. Sail out to sea and do new things.”
     titleColor: 
     titleShadow: true
     titleFontSize: 44
