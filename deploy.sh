@@ -6,7 +6,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build the project.
 ####### 이부분을 본인 테마로 변경해주세요~ #######
-hugo -t hugo-theme-stack 
+hugo -t zzo 
 
 # Go To Public folder
 cd public
