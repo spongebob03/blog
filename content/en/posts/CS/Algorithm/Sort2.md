@@ -1,5 +1,5 @@
 ---
-title: "정렬"
+title: "정렬2"
 date: 2022-04-08T12:09:48+09:00
 draft: false
 tags: ["알고리즘", "정렬"]
@@ -56,6 +56,7 @@ def merge(arr, left, mid, right):
 {{< youtube 7BDzle2n47c >}}
 
 {{< expand "구현 코드">}}
+다른 자료의 psuedo코드 기반으로 설명 영상의 s, e 동작과는 다르게 구현되었습니다.
 ```python
 def quick_sort(arr, left, right):
     if left < right:
@@ -66,21 +67,22 @@ def quick_sort(arr, left, right):
 
 def partition(arr, left, right):
     pivot = arr[right] # 가장 오른쪽 원소를 pivot으로 잡는 경우
-    i = left - 1
+    s = left - 1 # s는 pivot보다 작은 수를 가리킨다
 
-    for j in range(left, right):
-        if arr[j] < pivot:
-            i += 1
-            arr[i], arr[j] = arr[j], arr[i] # swap
+    for e in range(left, right): # e는 pivot보다 같거나 큰 수를 가리키는데
+        if arr[e] < pivot: # 그렇지 않으면 
+            s += 1
+            arr[s], arr[e] = arr[e], arr[s] # swap
+            
 
-    arr[i+1], arr[right] = arr[right], arr[i+1] # swap
-    return i + 1
+    arr[s+1], arr[right] = arr[right], arr[s+1] # pivot 변경
+    return i + 1 # pivot 최종 위치 반환
 ```
 {{< /expand >}}
 
 ## Heap Sort
 
-{{< youtube aOP81IhPOmw>}}
+{{< youtube 2DmK_H7IdTo>}}
 
 {{< expand "구현 코드">}}
 ```python
