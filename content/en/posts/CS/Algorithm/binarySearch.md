@@ -3,6 +3,8 @@ title: "BinarySearch"
 date: 2022-04-20T17:48:51+09:00
 draft: false
 description: binary search, lower bound, upper bound
+tags: ["알고리즘", "탐색"]
+categories: ["알고리즘"]
 ---
 ## 이진 탐색
 {{<boxmd>}}

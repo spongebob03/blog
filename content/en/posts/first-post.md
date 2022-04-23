@@ -5,6 +5,7 @@ draft: false
 tags: ["blog", "hugo", "개발환경"]
 series: ["우당탕탕 개발기"]
 description: 야 너두 블로그 만들 수 있어
+order: 1
 ---
 
 ![](https://blog.chodaeho.com/images/blog/2021/01/hugo-logo.png)  
