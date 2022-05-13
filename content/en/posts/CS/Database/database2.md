@@ -1,8 +1,8 @@
 ---
-title: "데이터베이스-2"
+title: "DML, DCL, DDL"
 date: 2022-04-23T21:44:43+09:00
 draft: false
-description: DML, DCL, DDL
+description: 데이터베이스-2
 tags: ["데이터베이스", "CS"]
 categories: ["데이터베이스"]
 ---

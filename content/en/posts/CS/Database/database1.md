@@ -1,8 +1,8 @@
 ---
-title: "데이터베이스-1"
+title: "데이터베이스 개념, 데이터 무결성"
 date: 2022-04-23T17:48:51+09:00
 draft: false
-description: 데이터베이스 개념, 데이터 무결성
+description: 데이터베이스-1
 tags: ["데이터베이스", "CS"]
 categories: ["데이터베이스"]
 ---
