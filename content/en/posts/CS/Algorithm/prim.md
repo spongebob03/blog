@@ -1,9 +1,12 @@
 ---
 title: "프림 알고리즘"
 date: 2022-05-15T23:02:38+09:00
-draft: true
+draft: false
 libraries:
 - mathjax
+description: Prim Algorithm
+tags: ["알고리즘", "그래프", "최단경로"]
+categories: ["알고리즘"]
 ---
 
 ## Prim Algorithm
