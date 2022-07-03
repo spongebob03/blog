@@ -3,7 +3,7 @@ title: "추천시스템이란?"
 date: 2021-11-09T22:09:48+09:00
 draft: false
 tags: ["추천시스템"]
-categories: ["Recommendation System"]
+categories: ["추천시스템"]
 ---
 > 사용자가 관심있어 할만한 아이템을 제공해주는 자동화된 시스템
 - 핵심

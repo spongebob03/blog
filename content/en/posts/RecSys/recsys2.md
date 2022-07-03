@@ -3,7 +3,7 @@ title: "주요 추천 알고리즘"
 date: 2021-11-19T22:09:48+09:00
 draft: false
 tags: ["추천시스템"]
-categories: ["Recommendation System"]
+categories: ["추천시스템"]
 description: 
 ---
 ## 1. Content-Based filtering: CB
