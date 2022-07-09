@@ -21,8 +21,8 @@ def sigmoid(x):
 ![](/images/ML/relu.png)
 $$ h(x) = 
 \cases{
-\rm 0 \ \text{if }\ x\ge 0\cr
-\rm x \ \text{if }\ x\lt 0
+\rm x \qquad \text{if }\ x\gt 0\cr
+\rm 0 \qquad \text{if }\ x\le 0
 }  $$
 ```python
 def relu(x):
@@ -33,8 +33,8 @@ def relu(x):
 ![](/images/ML/leaky_relu.png)
 $$ h(x) = 
 \cases{
-\rm 0 \ \text{if }\ x\ge 0\cr
-\rm 0.01 \times x \ \text{if }\ x\lt 0
+\rm x \qquad \text{if }\ x\gt 0\cr
+\rm 0.01 \times x \qquad \text{if }\ x\le 0
 }  $$
 ```python
 def leaky_relu(x):
