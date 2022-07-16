@@ -7,7 +7,7 @@ date = "2021-12-03"
 {{<boxmd>}}
 ☘️ 일상을 더 새롭고 재밌게 만드는 개발자가 목표입니다.
 {{</boxmd>}}
-### Project
+## Project
 {{<expand "웹툰 추천 시스템(작업중...🏃)">}}
 
 {{</expand>}}
@@ -27,17 +27,17 @@ date = "2021-12-03"
 - 전시 작품 업로드, 전시관 불러오기, 즐겨찾기 작품 추가, 목록확인
   사용자의 선호 작품을 기반한 전시관 추천
 {{</expand>}}
-### OpenSource
-- 오픈소스 프로젝트: [파이토치 한국어 튜토리얼](https://github.com/PyTorchKorea/tutorials-kr)  
+
+## OpenSource
+- [파이토치 튜토리얼 번역 프로젝트](https://github.com/PyTorchKorea/tutorials-kr)  
   - [파이프라인 병렬화로 트랜스포머 모델 학습시키기](https://tutorials.pytorch.kr/intermediate/pipeline_tutorial.html)
   - [분산 데이터 병렬 처리와 병렬 처리 파이프라인을 사용한 트랜스포머 모델 학습](https://tutorials.pytorch.kr/advanced/ddp_pipeline.html)
+- [파이토치 허브 번역 프로젝트](https://github.com/PyTorchKorea/hub-kr)
+  - [DENSENET](https://pytorch.kr/hub/pytorch_vision_densenet/)
 
-### Act
-- 활동
-  - 2019 WISET 멘토활동단: 찾아가는 실험실
-  - 2019 2학기 기초전공 튜터링: 튜터 참여
-  - 2018 평창 동계 패럴림픽 자원봉사: (SID)관중 접근통제
-  - 2018 평창 동계 올림픽 자원봉사: (SID)경기 및 훈련 정보 등 제공
-  - 2017 서울동행 교육봉사
-
-
+## Experience
+- 2019 WISET 멘토활동단: 찾아가는 실험실
+- 2019 2학기 기초전공 튜터링: 튜터 참여
+- 2018 평창 동계 패럴림픽 자원봉사: (SID)관중 접근통제
+- 2018 평창 동계 올림픽 자원봉사: (SID)경기 및 훈련 정보 등 제공
+- 2017 서울동행 교육봉사

@@ -57,6 +57,7 @@ description: 프로젝트 관리, 오픈소스를 위한 간단한 깃 활용 �
 
 - 생성`git branch 브랜치이름`
 - 이동
+🧳 `checkout`: `.git` 에서 파일을 불러온다는 개념으로 생각
     - `git checkout 브랜치`
     - `git checkout -b 브랜치` : 브랜치 생성과 이동
 - 확인 `git branch`

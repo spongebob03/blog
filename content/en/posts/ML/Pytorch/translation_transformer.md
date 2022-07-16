@@ -373,3 +373,4 @@ print(translate(transformer, "Der Vogel Kämpft sich aus dem Ei."))
 
 ## 참고
 [NN.TRANSFORMER와 TORCHTEXT로 언어 번역하기](https://tutorials.pytorch.kr/beginner/translation_transformer.html)
+[TRANSFORMER (NMT)](https://pytorch.kr/hub/pytorch_fairseq_translation/)
